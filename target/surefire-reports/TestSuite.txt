@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 21.677 s <<< FAILURE! - in TestSuite
+runScenario(runner.TestRunner)  Time elapsed: 18.324 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 18.368 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 18.375 s  <<< FAILURE!
+java.lang.NullPointerException
+
+runScenario(runner.TestRunner)  Time elapsed: 18.392 s  <<< FAILURE!
+java.lang.NullPointerException
+

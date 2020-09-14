@@ -1,0 +1,423 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-23T11:13:16.497Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat stepdefinitions.Hook.setUp(Hook.java:43)\r\n",
+              "duration": 17323990900,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hook.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "TC_01:Valid login",
+        "description": "",
+        "id": "aruntest;tc-01:valid-login",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.reports.LogStatus.fail(LogStatus.java:18)\r\n\tat stepdefinitions.Hook.tearDown(Hook.java:55)\r\n",
+              "duration": 1000100,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "I am on login page",
+            "match": {
+              "location": "stepdefinitions.Login.navigateToLoginPage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7000400,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I login using username and password",
+            "match": {
+              "location": "stepdefinitions.Login.enterUsername_Password()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-23T11:13:16.462Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat stepdefinitions.Hook.setUp(Hook.java:43)\r\n",
+              "duration": 17259987200,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hook.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "TC_01-iteration2:Valid login",
+        "description": "",
+        "id": "aruntest;tc-01-iteration2:valid-login",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.reports.LogStatus.fail(LogStatus.java:18)\r\n\tat stepdefinitions.Hook.tearDown(Hook.java:55)\r\n",
+              "duration": 26001400,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I am on login page",
+            "match": {
+              "location": "stepdefinitions.Login.navigateToLoginPage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000100,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I login using username and password",
+            "match": {
+              "location": "stepdefinitions.Login.enterUsername_Password()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000100,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-23T11:13:16.492Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat stepdefinitions.Hook.setUp(Hook.java:43)\r\n",
+              "duration": 17352992500,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hook.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "TC_01-iteration3:Valid login",
+        "description": "",
+        "id": "aruntest;tc-01-iteration3:valid-login",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.reports.LogStatus.fail(LogStatus.java:18)\r\n\tat stepdefinitions.Hook.tearDown(Hook.java:55)\r\n",
+              "duration": 1000100,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "I am on login page",
+            "match": {
+              "location": "stepdefinitions.Login.navigateToLoginPage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000100,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 3000200,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "I login using username and password",
+            "match": {
+              "location": "stepdefinitions.Login.enterUsername_Password()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "ArunTest",
+    "description": "",
+    "id": "aruntest",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/runnablefeatures/ArunTest.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-23T11:13:16.485Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat stepdefinitions.Hook.setUp(Hook.java:43)\r\n",
+              "duration": 17382994300,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hook.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "TC_04:Invalid Login2",
+        "description": "",
+        "id": "aruntest2;tc-04:invalid-login2",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.reports.LogStatus.fail(LogStatus.java:18)\r\n\tat stepdefinitions.Hook.tearDown(Hook.java:55)\r\n",
+              "duration": 1000100,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000100,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "I am on login page",
+            "match": {
+              "location": "stepdefinitions.Login.navigateToLoginPage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I login using username and password",
+            "match": {
+              "location": "stepdefinitions.Login.enterUsername_Password()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepdefinitions.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "ArunTest2",
+    "description": "",
+    "id": "aruntest2",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/runnablefeatures/ArunTest2.feature",
+    "tags": []
+  }
+]
